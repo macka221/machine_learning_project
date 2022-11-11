@@ -19,7 +19,7 @@
 
 ## *Resources*
 
-(Information About JetPack)[https://developer.nvidia.com/embedded/jetpack-sdk-45-archive]
+[Information About JetPack](https://developer.nvidia.com/embedded/jetpack-sdk-45-archive)
 
 ## Instructions
 
@@ -90,7 +90,7 @@ Go to the function def _skip_check_old_ver(self) and bypass it by inserting retu
 
 ### **5. Apt-Get**
 
-After adding the line to the l4t_/payload_/updater_/t210 you can run the following to update and upgrade software.
+After adding the line to the l4t_payload_updater_t210 you can run the following to update and upgrade software.
 
 ```bash
 $ sudo apt-get update && sudo apt update
@@ -102,8 +102,9 @@ $ sudo apt-get upgrade && sudo apt upgrade
 ### **6. Jetson Inferene Installation**
 
 #### *Links*
-- (jetson inference computer vision models)[https://github.com/dusty-nv/jetson-inference]
-- (jetson markdown instructions)[https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md]
+
+- [jetson inference computer vision models](https://github.com/dusty-nv/jetson-inference)
+- [jetson markdown instructions](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)
 
 Execute the following commands:
 
