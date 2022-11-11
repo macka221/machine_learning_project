@@ -86,7 +86,7 @@ If using Jetpack version 4.4.1 onwards there is a bootloader issue. To solve thi
 $ sudo vim /usr/sbin/l4t_payload_updater_t210
 ```
 
-Go to the function def _/skip_/check_/old_/ver(self) and bypass it by inserting return True after it.
+Go to the function def _skip_check_old_ver(self) and bypass it by inserting return True after it.
 
 ### **5. Apt-Get**
 
